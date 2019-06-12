@@ -1574,7 +1574,7 @@ extension Bluejay: PeripheralDelegate {
     }
 }
 
-let logger = XCGLogger(identifier: "Bluejay", includeDefaultDestinations: true)
+let logger = XCGLogger(identifier: "Bluejay", includeDefaultDestinations: false)
 
 /// Convenience function to log information specific to Bluejay within the framework.
 func debugLog(_ string: String) {
